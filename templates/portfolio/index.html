@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta name="description" content="Name of your web site">
+	<meta name="author" content="Marketify">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>Huzaifa Zahoor - Portfolio</title>
+	{% load static %}
+
+	<!-- STYLES -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/plugins.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'css/dark.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+	<!--<link rel="stylesheet" type="text/css" href="css/dark.css" />-->
+	<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+	<!-- /STYLES -->
+</head>
+
+<body class="dark">
+
+	<!-- PRELOADER -->
+	<div id="preloader">
+		<div class="loader_line"></div>
+	</div>
+	<!-- /PRELOADER -->
+
+	<!-- WRAPPER ALL -->
+	<div class="iknow_tm_all_wrap" data-magic-cursor="show">
+		<!-- If you want disable magic cursor change value to "hide" -->
+		<!-- MODALBOX -->
+		<div class="iknow_tm_modalbox">
+			<div class="box_inner">
+				<div class="close">
+					<a href="#"><img class="svg" src="{% static 'img/svg/cancel.svg' %}" alt="" /></a>
+				</div>
+				<div class="description_wrap"></div>
+			</div>
+		</div>
+		<!-- /MODALBOX -->
+
+		<!-- TOPBAR -->
+		<div class="iknow_tm_topbar">
+			<div class="container">
+				<div class="topbar_inner">
+					<div class="logo">
+						<a href="#"><img src="{% static 'img/logo/light.png' %}" alt="" /></a>
+					</div>
+					<div class="right">
+						<div class="iknow_tm_button fixedVersion">
+							<a href="{% static 'img/cv/1.jpg' %}" download>Download CV</a>
+						</div>
+					</div>
+
+					<!-- AUTHOR INFO FOR MOBILE -->
+					<div class="iknow_tm_author_info">
+						<div class="info_inner">
+							<div class="info">
+								<h3>Huzaifa Zahoor</h3>
+								<span>Python Data Engineer</span>
+							</div>
+							<div class="avatar">
+								<div class="main" data-img-url="{% static 'img/hero/3.jpg' %}"></div>
+							</div>
+						</div>
+					</div>
+					<!-- /AUTHOR INFO FOR MOBILE -->
+
+				</div>
+			</div>
+		</div>
+		<!-- /TOPBAR -->
+
+		<!-- BACKGROUND -->
+		<div class="iknow_tm_fixed_background movingEffect" data-img-url="img/hero/5.jpg"></div>
+		<!-- /BACKGROUND -->
+
+		<!-- CONTENT -->
+		<div class="iknow_tm_fixed_content">
+			<div class="container">
+				<div class="fixed_content_inner">
+
+					<div class="content_left">
+						<!-- MENUBAR -->
+						<div class="menubar">
+							<ul>
+								<li class="active">
+									<img class="svg" src="{% static 'img/svg/archive.svg' %}" alt="" />
+									<span>About Me</span>
+									<a class="iknow_tm_full_link" href="#about"></a>
+								</li>
+								<li>
+									<img class="svg" src="{% static 'img/svg/contacs.svg' %}" alt="" />
+									<span>Resume</span>
+									<a class="iknow_tm_full_link" href="#resume"></a>
+								</li>
+								<li>
+									<img class="svg" src="{% static 'img/svg/briefcase.svg' %}" alt="" />
+									<span>Portfolio</span>
+									<a class="iknow_tm_full_link" href="#portfolio"></a>
+								</li>
+								<li>
+									<img class="svg" src="{% static 'img/svg/gear.svg' %}" alt="" />
+									<span>Service</span>
+									<a class="iknow_tm_full_link" href="#service"></a>
+								</li>
+								<li>
+									<img class="svg" src="{% static 'img/svg/message.svg' %}" alt="" />
+									<span>Testimonial</span>
+									<a class="iknow_tm_full_link" href="#testimonials"></a>
+								</li>
+								<li>
+									<img class="svg" src="{% static 'img/svg/letter.svg' %}" alt="" />
+									<span>Contact</span>
+									<a class="iknow_tm_full_link" href="#contact"></a>
+								</li>
+							</ul>
+						</div>
+						<!-- /MENUBAR -->
+
+						<!-- INFOBAR -->
+						<div class="infobar">
+							<div class="bar_in">
+								<div class="image">
+									<img  src="img/thumbs/10-9.jpg" alt="" />
+									<div class="main" data-img-url="img/hero/3.jpg"></div>
+								</div>
+								<div class="extra">
+									<div class="short">
+										<h3>Huzaifa Zahoor</h3>
+										<span>Python Data Engineer</span>
+									</div>
+									<div class="social">
+										<ul>
+											<li><a href="https://pk.linkedin.com/in/huzaifazahoor654" target="_blank"><img class="svg"
+														src="{% static 'img/svg/social/linkedin.svg' %}" alt="" /></a>
+											</li>
+											<li><a href="https://github.com/huzaifazahoor" target="_blank"><img class="svg"
+														src="{% static 'img/svg/social/github.svg' %}" alt="" /></a>
+											</li>
+											<li><a href="#" target="_blank"><img class="svg"
+														src="{% static 'img/svg/social/stackoverflow.svg' %}" alt="" /></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /INFOBAR -->
+					</div>
+
+					<div class="content_right">
+						<!-- MAINBAR -->
+						<div class="mainbar">
+
+							<!-- ABOUT -->
+							<div id="about" class="iknow_tm_main_section active">
+								<div class="iknow_tm_about">
+									<div class="left">
+										<div class="left_inner">
+											<div class="image">
+												<img src="img/thumbs/35-44.jpg" alt="" />
+												<div class="main" data-img-url="img/about/1.jpg"></div>
+											</div>
+											<div class="details">
+												<ul>
+													<li>
+														<h3>Name</h3>
+														<span>Huzaifa Zahoor</span>
+													</li>
+													<li>
+														<h3>Birthday</h3>
+														<span>January 14, 1997</span>
+													</li>
+													<li>
+														<h3>Mail</h3>
+														<span>huzaifazahoor654@gmail.com</span>
+													</li>
+													<li>
+														<h3>Phone</h3>
+														<span>+92 332 575 8954</span>
+													</li>
+													<li>
+														<h3>Remote Available</h3>
+														<span>4:00 AM - 4:00 PM (UTC)</span>
+													</li>
+													<li>
+														<h3>Address</h3>
+														<span>Islamabad, Pakistan</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="right">
+										<div class="iknow_tm_main_title">
+											<span>About Me</span>
+											<h3>Python Data Engineer</h3>
+										</div>
+										<div class="bigger_text">
+											<p>A passionate UI/UX Designer and Web Developer based In NYC, USA</p>
+										</div>
+										<div class="text">
+											<p>Hi! My name is Huzaifa Zahoor. I'm a Python Data Engineer with over two years of experience in Stock Market Development (Fintech). I'm currently working as a Data Engineer at MLSense and am known for my loyalty for work, creativity, and problem-solving skills.</p>
+										</div>
+										<div class="iknow_tm_button">
+											<a href="img/cv/1.jpg" download>Download CV</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /ABOUT -->
+
+							<!-- RESUME -->
+							<div id="resume" class="iknow_tm_main_section">
+								<div class="iknow_tm_resume">
+									<div class="iknow_tm_main_title">
+										<span>Resume</span>
+										<h3>Combination of Skill &amp; Experience</h3>
+									</div>
+									<div class="resume_inner">
+										<div class="left">
+											<div class="info_list">
+												<div class="iknow_tm_resume_title">
+													<h3>Education</h3>
+													<span class="shape"></span>
+												</div>
+												<ul>
+													<li>
+														<div class="list_inner">
+															<div class="short">
+																<div class="job">
+																	<h3>BS Computer Science</h3>
+																	<span>Capital University of Science & Technology, Islamabad</span>
+																</div>
+																<div class="year">
+																	<span>2016 - 2020</span>
+																</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<div class="info_list">
+												<div class="iknow_tm_resume_title">
+													<h3>Experience</h3>
+													<span class="shape"></span>
+												</div>
+												<ul>
+													<li>
+														<div class="list_inner">
+															<div class="short">
+																<div class="job">
+																	<h3>Python Data Engineer</h3>
+																	<span>MLSense</span>
+																</div>
+																<div class="year">
+																	<span>Dec, 2022 - Present</span>
+																</div>
+															</div>
+															<div class="text">
+																<p>Web Developers are build a website’s core structure
+																	using coding languages, while designers are more
+																	visually creative and user-focused.</p>
+															</div>
+														</div>
+													</li>
+													<li>
+														<div class="list_inner">
+															<div class="short">
+																<div class="job">
+																	<h3>Technical Team Lead</h3>
+																	<span>Million News Media (Stocks Telegraph)</span>
+																</div>
+																<div class="year">
+																	<span>Dec, 2021 - Present</span>
+																</div>
+															</div>
+															<div class="text">
+																<p>Web Developers are build a website’s core structure
+																	using coding languages, while designers are more
+																	visually creative and user-focused.</p>
+															</div>
+														</div>
+													</li>
+													<li>
+														<div class="list_inner">
+															<div class="short">
+																<div class="job">
+																	<h3>Python Backend Developer</h3>
+																	<span>Million News Media (Stocks Telegraph)</span>
+																</div>
+																<div class="year">
+																	<span>Sep, 2020 - Present</span>
+																</div>
+															</div>
+															<div class="text">
+																<p>Web Developers are build a website’s core structure
+																	using coding languages, while designers are more
+																	visually creative and user-focused.</p>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="right">
+											<div class="skills_list">
+												<div class="iknow_tm_resume_title">
+													<h3>Skills</h3>
+													<span class="shape"></span>
+												</div>
+												<div class="personal">
+													<div class="dodo_progress">
+														<div class="progress_inner" data-value="100">
+															<span><span class="label">Python</span></span>
+															<div class="background">
+																<div class="bar">
+																	<div class="bar_in"></div>
+																</div>
+															</div>
+														</div>
+														<div class="progress_inner" data-value="100">
+															<span><span class="label">Django</span></span>
+															<div class="background">
+																<div class="bar">
+																	<div class="bar_in"></div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /RESUME -->
+
+							<!-- PORTFOLIO -->
+							<div id="portfolio" class="iknow_tm_main_section">
+								<div class="iknow_tm_portfolio">
+									<div class="iknow_tm_main_title">
+										<span>Resume</span>
+										<h3>My works that I did for clients</h3>
+									</div>
+									<div class="portfolio_list">
+										<ul class="gallery_zoom">
+											{% for obj in user.portfolio.objects.all %}
+											<li class="detail">
+												<div class="list_inner">
+													<div class="image">
+														<img src="{% static 'img/thumbs/1-1.jpg' %}" alt="" />
+														<div class="main" data-img-url="{% static 'img/portfolio/8.jpg' %}"></div>
+													</div>
+													<div class="overlay"></div>
+													<img class="svg" src="{% static 'img/svg/text.svg' %}" alt="" />
+													<div class="details">
+														<span>Detail</span>
+														<h3>{{ obj.title }}</h3>
+													</div>
+													<a class="iknow_tm_full_link portfolio_popup" href="#"></a>
+
+													<div class="hidden_content">
+														<div class="popup_details">
+															<div class="main_details">
+																<div class="textbox">
+																	<p>{{ obj.description }}</p>
+																</div>
+																<div class="detailbox">
+																	<ul>
+																		{% if obj.client %}
+																		<li>
+																			<span class="first">Client</span>
+																			<span>{{ obj.client }}</span>
+																		</li>
+																		{% endif %}
+																	</ul>
+																</div>
+															</div>
+															<div class="additional_images">
+																<ul>
+																	{% for image in obj.images.all %}
+																	<li>
+																		<div class="list_inner">
+																			<div class="my_image">
+																				<img src="{{ image.url }}" alt="" />
+																				<div class="main"
+																					data-img-url="{% static 'img/portfolio/1.jpg' %}">
+																				</div>
+																			</div>
+																		</div>
+																	</li>
+																	{% endfor %}
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											{% endfor %}
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- /PORTFOLIO -->
+
+							<!-- SERVICES -->
+							<div id="service" class="iknow_tm_main_section">
+								<div class="iknow_tm_services">
+									<div class="iknow_tm_main_title">
+										<span>Service</span>
+										<h3>Never compromise with quality</h3>
+									</div>
+									<div class="service_list">
+										<ul>
+											<li>
+												<div class="list_inner">
+													<span class="icon"><img class="svg" src="{% static 'img/svg/squares.svg' %}"
+															alt="Squares" /></span>
+													<h3 class="title">Stock Market Development</h3>
+													<p class="text">Two plus years of Experience in Fintech Development...</p>
+													<a class="iknow_tm_full_link" href="#"></a>
+													<div class="hidden_content">
+														<div class="service_informations">
+															<div class="image">
+																<img src="{% static 'img/thumbs/4-2.jpg' %}" alt="" />
+																<div class="main" data-img-url="img/service/1.jpg">
+																</div>
+															</div>
+															<div class="description">
+																<p>I have experience in building the Stock Screener for different exchanges. I have worked with the US Market, Canadian Market, Nepali, and German Exchange.</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- /SERVICES -->
+
+							<!-- TESTIMONIALS -->
+							<div id="testimonials" class="iknow_tm_main_section">
+								<div class="iknow_tm_testimonials">
+									<div class="iknow_tm_main_title">
+										<span>Testimonials</span>
+										<h3>What people say about me</h3>
+									</div>
+									<div class="testimonials_list owl-carousel owl-theme">
+										<div class="list_inner">
+											{% for obj in user.testimonials.objects.all %}
+											<div class="in">
+												<div class="text">
+													<p>{{ obj.description }}</p>
+												</div>
+												<div class="details">
+													<div class="left">
+														<div class="avatar">
+															<div class="main" data-img-url="img/testimonials/1.jpg">
+															</div>
+														</div>
+														<div class="info">
+															<h3>{{ obj.name }}</h3>
+															<span>Fiverr</span>
+														</div>
+													</div>
+													<div class="right">
+														<img class="svg" src="{% static 'img/svg/left-quote.svg' %}" alt="{{ obj.name }}-image" />
+													</div>
+												</div>
+											</div>
+											{% endfor %}
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /TESTIMONIALS -->
+
+							<!-- CONTACT -->
+							<div id="contact" class="iknow_tm_main_section">
+								<div class="iknow_tm_contact">
+									<div class="iknow_tm_main_title">
+										<span>Contact Me</span>
+										<h3>Contact me to get your work done</h3>
+									</div>
+									<div class="wrapper">
+										<div class="left">
+											<ul>
+												<li>
+													<div class="list_inner">
+														<span class="icon"><img class="svg" src="{% static 'img/svg/smartphone.svg' %}"
+																alt="" /></span>
+														<div class="short">
+															<h3>WhatsApp/Call Me</h3>
+															<span><a href="wa.me/+923325758954">+92 332 5758954</a></span>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="list_inner">
+														<span class="icon"><img class="svg" src="{% static 'img/svg/letter.svg' %}"
+																alt="" /></span>
+														<div class="short">
+															<h3>Email Me</h3>
+															<span><a href="mailto:huzaifazahoor654@gmail.com">huzaifazahoor654@gmail.com</a></span>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="list_inner">
+														<span class="icon"><img class="svg"
+																src="{% static 'img/svg/placeholder.svg' %}" alt="" /></span>
+														<div class="short">
+															<h3>Address</h3>
+															<span>Islamabad, Pakistan</span>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /CONTACT -->
+
+						</div>
+						<!-- /MAINBAR -->
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- /CONTENT -->
+
+		<!-- MAGIC CURSOR -->
+		<div class="mouse-cursor cursor-outer"></div>
+		<div class="mouse-cursor cursor-inner"></div>
+		<!-- /MAGIC CURSOR -->
+
+	</div>
+	<!-- / WRAPPER ALL -->
+
+	<!-- SCRIPTS -->
+	<script src="{% static 'js/jquery.js' %}"></script>
+	<!--[if lt IE 10]> <script type="text/javascript" src="{% static 'js/ie8.js' %}"></script> <![endif]-->
+	<script src="{% static 'js/plugins.js' %}"></script>
+	<script src="{% static 'js/init.js' %}"></script>
+	<!-- /SCRIPTS -->
+
+</body>
+
+</html>
